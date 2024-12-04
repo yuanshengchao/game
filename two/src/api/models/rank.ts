@@ -32,12 +32,102 @@ export namespace GetRankList {
     return Promise.resolve({
       success: true,
       data: {
-        total: 1000,
+        total: 30,
         currentTime: '',
         nextUpdateTime: '',
-        list: []
-      }
-    } as IResponse);
+        list: [{
+          // mock测试数据
+          rank: 1,
+          userId: '1',
+          nickName: 'test',
+          avatar: 'test',
+          score: 100,
+          rankChange: 1,
+          badges: [
+            {
+              id: '1',
+              name: 'test',
+              icon: 'test'
+            }
+          ]
+        }, {
+          // mock测试数据
+          rank: 2,
+          userId: '2',
+          nickName: 'test',
+          avatar: 'test',
+          score: 100,
+          rankChange: 1,
+          badges: [
+            {
+              id: '1',
+              name: 'test',
+              icon: 'test'
+            }
+          ]
+        }, {
+          // mock测试数据
+          rank: 3,
+          userId: '3',
+          nickName: 'test',
+          avatar: 'test',
+          score: 100,
+          rankChange: 1,
+          badges: [
+            {
+              id: '1',
+              name: 'test',
+              icon: 'test'
+            }
+          ]
+        }, {
+          // mock测试数据
+          rank: 4,
+          userId: '4',
+          nickName: 'test',
+          avatar: 'test',
+          score: 100,
+          rankChange: 1,
+          badges: [
+            {
+              id: '1',
+              name: 'test',
+              icon: 'test'
+            }
+          ]
+        }, {
+          // mock测试数据
+          rank: 5,
+          userId: '5',
+          nickName: 'test',
+          avatar: 'test',
+          score: 100,
+          rankChange: 1,
+          badges: [
+            {
+              id: '1',
+              name: 'test',
+              icon: 'test'
+            }
+          ]
+        }, {
+          // mock测试数据
+          rank: 6,
+          userId: '6',
+          nickName: 'test',
+          avatar: 'test',
+          score: 100,
+          rankChange: 1,
+          badges: [
+            {
+              id: '1',
+              name: 'test',
+              icon: 'test'
+            }
+          ]
+        }]
+      } as unknown as IResponse
+    });
   }
 }
 
